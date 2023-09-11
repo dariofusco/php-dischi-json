@@ -18,11 +18,31 @@
 <body>
 
     <div id="app">
-        <ul v-for="disco in dischi">
-            <li> {{ disco.titolo }} </li>
-            <li> {{ disco.artista }} </li>
-            <li> {{ disco.anno }} </li>
-        </ul>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/Spotify_App_Logo.svg" alt="spotify" width="60" height="50">
+                </a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div v-for="disco in dischi" class="col-4 py-3">
+                    <div class="card" style="width: 18rem;">
+                        <img :src="`./img/${disco.immagine}`" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <ul>
+                                <li> {{ disco.titolo }} </li>
+                                <li> {{ disco.artista }} </li>
+                                <li> {{ disco.anno }} </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
     <script src="js/main.js"></script>

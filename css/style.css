@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #09151e;
+}
+
+.card-body {
+    background-color: #121f2b;
+}
+
+#app {
+    background-color: #1b2a36;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
