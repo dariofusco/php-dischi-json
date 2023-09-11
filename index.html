@@ -18,7 +18,11 @@
 <body>
 
     <div id="app">
-
+        <ul v-for="disco in dischi">
+            <li> {{ disco.titolo }} </li>
+            <li> {{ disco.artista }} </li>
+            <li> {{ disco.anno }} </li>
+        </ul>
     </div>
 
     <script src="js/main.js"></script>

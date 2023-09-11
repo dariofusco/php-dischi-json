@@ -9,8 +9,8 @@ const app = Vue.createApp({
     },
     mounted() {
         axios.get("api/dischi.php").then(function (response) {
-            this.dischi = response.data;
-            console.log(response.data);
+            this.dischi.push(response.data);
+            console.log(this.dischi);
         });
     },
 });
