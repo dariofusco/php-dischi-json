@@ -1,0 +1,38 @@
+[
+    {
+        "immagine": "Bon_Jovi_New_Jersey.jpg",
+        "titolo": "New Jersey",
+        "artista": "Bon Jovi",
+        "anno": "1988"
+    },
+    {
+        "immagine": "Queen_Live_Magic.png",
+        "titolo": "Live Magic",
+        "artista": "Queen",
+        "anno": "1986"
+    },
+    {
+        "immagine": "Sting_Ten_Summoners_Tales.png",
+        "titolo": "Ten's Summoner's Tales",
+        "artista": "Sting",
+        "anno": "1993"
+    },
+    {
+        "immagine": "Chinese_Butterfly_by_Chick_Corea_and_Steve_Gadd.jpg",
+        "titolo": "Chinese Butterfly",
+        "artista": "The Chick Corea + Steve Gadd Band",
+        "anno": "2017"
+    },
+    {
+        "immagine": "Iron_Maiden_Brave_New_World.jpg",
+        "titolo": "Brave New World",
+        "artista": "Iron Maiden",
+        "anno": "2000"
+    },
+    {
+        "immagine": "Eric_Clapton.jpg",
+        "titolo": "One More Car, One More Rider",
+        "artista": "Eric Clapton",
+        "anno": "2002"
+    }
+]
